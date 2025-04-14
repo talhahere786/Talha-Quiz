@@ -2,7 +2,7 @@ import { useState,useEffect } from 'react'
 import Hero from './components/Hero'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HostDashboard from './components/host-dashboard';
-import AllSessions from './components/allSessions';
+import AllSessions from "./components/AllSessions";
 import ManageQuestions from './components/ManageQuestions';
 import GameSettings from './components/GameSettings';
 import PlayerDashboard from './components/PlayerDashboard';
