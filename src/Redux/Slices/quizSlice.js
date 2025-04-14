@@ -27,9 +27,9 @@ const getInitialTimeLeft = () => {
   const savedSettings = localStorage.getItem('gameSettings');
   if (savedSettings) {
     const { gameSessionTime } = JSON.parse(savedSettings);
-    return gameSessionTime || 10; // Default to 60 if not found
+    return gameSessionTime || 60; // Default to 60 if not found
   }
-  return 10; // Default value
+  return 60; // Default value
 };
 const initialState = {
   questions: loadQuestions(),
